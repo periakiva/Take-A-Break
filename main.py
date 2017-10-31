@@ -12,7 +12,7 @@ def openweb():
 
 if __name__ == "__main__":
     while True:
-        if check is False:
+        if not check:
             start_time = time.time()
             check=True
 
